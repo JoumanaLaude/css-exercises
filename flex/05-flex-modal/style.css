@@ -20,6 +20,9 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 20px;
+  display: flex;
+  gap: 30px;
 }
 
 .icon {
@@ -39,10 +42,10 @@ body {
   background: #eee;
   border-radius: 50%;
   color: #888;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 16px;
-  height: 24px;
-  width: 24px;
+  height: 32px;
+  width: 32px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -64,3 +67,17 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+.question-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text {
+  padding: 12px 0;
+}
+
+.header {
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
